@@ -18,14 +18,14 @@ npm run dev
 
 # 详细页面
 
-![image](https://github.com/linDdongZ/Xfiction/tree/master/image/s1.jpg)
+![image](https://github.com/linDdongZ/Xfiction/blob/master/image/s1.JPG)
 
- ![image](https://github.com/linDdongZ/Xfiction/tree/master/image/s2.jpg)
+ ![image](https://github.com/linDdongZ/Xfiction/blob/master/image/s2.JPG)
 
-![image](https://github.com/linDdongZ/Xfiction/tree/master/image/s3.jpg)
+![image](https://github.com/linDdongZ/Xfiction/blob/master/image/s3.JPG)
 
-![image](https://github.com/linDdongZ/Xfiction/tree/master/image/s4.jpg)
+![image](https://github.com/linDdongZ/Xfiction/blob/master/image/s4.JPG)
 
-![image](https://github.com/linDdongZ/Xfiction/tree/master/image/s5.jpg)
+![image](https://github.com/linDdongZ/Xfiction/blob/master/image/s5.JPG)
 
-![image](https://github.com/linDdongZ/Xfiction/tree/master/image/s6.jpg)
+![image](https://github.com/linDdongZ/Xfiction/blob/master/image/s6.JPG)
