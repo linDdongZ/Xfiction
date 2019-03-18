@@ -106,7 +106,6 @@ export default {
       this.list = false;
     },
     bookDetails(index){
-      console.log(this.Bookshelf[index].id);
       
       this.$router.push({name: 'bookDetails', query: { id: this.Bookshelf[index].id }})
     }

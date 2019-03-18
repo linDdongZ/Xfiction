@@ -66,11 +66,9 @@ export default {
     DownloadData(key) {
       if (key.length != 0) {
         this.loading = true;
-        console.log(this.bookRankingRe[key]._id);
         this.axios
           .get(`https://novel.juhe.im/rank/${this.bookRankingRe[key]._id}`)
           .then(res => {
-            console.log(res.data.ranking.books);
             this.books = res.data.ranking.books;
             this.loading = false;
           });

@@ -199,7 +199,6 @@ export default {
         author:this.book.details.author,
         longIntro:this.book.details.longIntro,
       }
-      console.log(books);
       
       for(let i = 0;i<this.$store.getters.reBookshelf.length;i++){
         if (this.$store.getters.reBookshelf[i].id == books.id) {

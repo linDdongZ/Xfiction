@@ -64,7 +64,6 @@ export default {
       }
     },
     tabSearch(val){
-      console.log(val)
       this.text = val;
       this.search()
     },
@@ -77,7 +76,6 @@ export default {
         this.axios
         .get(`https://novel.juhe.im/search?keyword=${this.text}`)
         .then(res => {
-          console.log(res.data.books)
           this.textData =  res.data.books
           this.$Message.destroy()
           this.showVertical = false
@@ -96,13 +94,11 @@ export default {
     this.axios
         .get(`https://novel.juhe.im/search-hotwords`)
         .then(res => {
-          console.log(res.data.searchHotWords)
           this.hot =  res.data.searchHotWords
     })
     this.axios
         .get(`https://novel.juhe.im/hot-books`)
         .then(res => {
-          console.log(res.data)
           this.hotBook =  res.data
     })
   },

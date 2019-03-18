@@ -1,21 +1,31 @@
-# demo
+# 文档
 
 > A Vue.js project
 
-## Build Setup
+## 运行项目
 
 ``` bash
-# install dependencies
+# 下载项目到文件夹
+# 下载引入过的插件
 npm install
 
-# serve with hot reload at localhost:8080
+# 运行项目
 npm run dev
 
-# build for production with minification
-npm run build
+# 登陆http://localhost:8080查看
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 详细页面
+
+![image](https://github.com/linDdongZ/Xfiction/image/s1.jpg)
+
+ ![image](https://github.com/linDdongZ/Xfiction/image/s2.jpg)
+
+![image](https://github.com/linDdongZ/Xfiction/image/s3.jpg)
+
+![image](https://github.com/linDdongZ/Xfiction/image/s4.jpg)
+
+![image](https://github.com/linDdongZ/Xfiction/image/s5.jpg)
+
+![image](https://github.com/linDdongZ/Xfiction/image/s6.jpg)

@@ -14,7 +14,6 @@ export default {
     axios
       .get(`https://novel.juhe.im/book-chapters/${id}`)
       .then(res => {
-        console.log(res)
         commit(types.CATATLOGUE, res.data.chapters)
         commit(types.LOADING,false)
       })
@@ -29,7 +28,6 @@ export default {
         axios.get(`https://novel.juhe.im/book/reviews?start=1&limit=5&sort=comment-count&book=${id}`)
       ])
       .then(axios.spread(function (bookdetails, bookrecommend,bookShortComment,longComment) {
-        console.log(longComment.data.reviews)
         commit(types.BOOKDETAILS_PUSH, {
           details:bookdetails.data,
           recommend:bookrecommend.data.books,
@@ -44,7 +42,6 @@ export default {
     axios
       .get(`https://novel.juhe.im/rank-category`)
       .then(res => {
-        console.log(res.data);
         commit(types.RANKING, res.data.male)
         commit(types.LOADING,false)
       });
@@ -62,7 +59,6 @@ export default {
       axios
       .get(url)
       .then(res => {
-        console.log(res.data);
         commit(types.BOOKFROM, res.data.bookLists)
       });
   },
@@ -71,7 +67,6 @@ export default {
       axios
       .get(`https://novel.juhe.im/booklists/${id}`)
       .then(res => {
-        console.log(res.data.bookList);
         commit(types.BOOKFROMDETAILS_DATA, res.data.bookList)
         commit(types.LOADING,false)
       });
@@ -81,7 +76,6 @@ export default {
       axios
       .get(`https://novel.juhe.im/categories`)
       .then(res => {
-        console.log(res.data);
         commit(types.CLASSIFY_DATA, res.data)
         commit(types.LOADING,false)
       });
@@ -91,7 +85,6 @@ export default {
       axios
       .get(`https://novel.juhe.im/category-info?gender=${gender}&type=${type}&major=${major}&minor=${minor}&start=${start}&limit=20`)
       .then(res => {
-        console.log(res.data);
         commit(types.CLASSIFYDETAILS_DATA, res.data.books)
         commit(types.LOADING,false)
       });

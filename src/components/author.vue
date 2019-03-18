@@ -58,7 +58,6 @@ export default {
     this.axios
       .get(`https://novel.juhe.im/author-books?author=${this.authorID}`)
       .then(res => {
-        console.log(res.data);
         this.books = res.data.books;
         this.loading = false;
       });
